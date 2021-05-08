@@ -30,37 +30,35 @@
     #addform="ngForm"
     (ngSubmit)="submitContactsForm()"
   >
-
-        <label for="name" class="form-group-label">Name</label>
-          <input
-            formControlName="name"
-            type="text"
-            name="name"
-            id="name"
-            class="form-input"
-            placeholder="Enter Name"
-          />
-        <br>
-        <label for="department" class="form-group-label">Department</label>
-          <input
-            formControlName="department"
-            type="text"
-            name="department"
-            id="department"
-            class="form-input"
-            placeholder="Enter Department"
-          />
-          <br>
-        <label for="eMail" class="form-group-label">Email</label>
-          <input
-            formControlName="email"
-            type="email"
-            name="email"
-            id="email"
-            class="form-input"
-            placeholder="Enter email"
-          />
-
+    <label for="name" class="form-group-label">Name</label>
+    <input
+      formControlName="name"
+      type="text"
+      name="name"
+      id="name"
+      class="form-input"
+      placeholder="Enter Name"
+    />
+    <br />
+    <label for="department" class="form-group-label">Department</label>
+    <input
+      formControlName="department"
+      type="text"
+      name="department"
+      id="department"
+      class="form-input"
+      placeholder="Enter Department"
+    />
+    <br />
+    <label for="eMail" class="form-group-label">Email</label>
+    <input
+      formControlName="email"
+      type="email"
+      name="email"
+      id="email"
+      class="form-input"
+      placeholder="Enter email"
+    />
   </form>
 </ng-template>
 <div class="form-button-with-icon" *ngIf="!isEdit">
