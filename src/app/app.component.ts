@@ -5,7 +5,7 @@ import {
   Validators,
   NgForm
 } from '@angular/forms';
-import { Subscription } from 'rxjs';
+
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
